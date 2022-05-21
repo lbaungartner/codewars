@@ -37,3 +37,5 @@ function sumOfDifferences(arr) {
     return Math.abs(newA.reduce((acc, c) => acc + c, 0));
   }
 }
+
+//This abomination is probably the worst code I've ever done, but it works. I'm not gonna pretend to know why of how, though.
