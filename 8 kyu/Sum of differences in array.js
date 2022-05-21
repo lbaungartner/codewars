@@ -38,4 +38,4 @@ function sumOfDifferences(arr) {
   }
 }
 
-//This abomination is probably the worst code I've ever done, but it works. I'm not gonna pretend to know why of how, though.
+//This abomination is probably the worst code I've ever done, but it works. I'm not gonna pretend to know why or how, though.
