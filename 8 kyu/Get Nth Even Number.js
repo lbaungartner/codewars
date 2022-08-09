@@ -16,3 +16,5 @@ function nthEven(n) {
     return (n - 1) * 2;
   }
 }
+
+// I realize now that returning (n -1) * 2 would work if n === 1 as well (making the if/else unnecessary), but since the answer I submitted to the Kata on Codewars was just like it is above, I kept it intact in here as well.
