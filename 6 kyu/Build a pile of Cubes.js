@@ -11,8 +11,14 @@
 
 function findNb(m) {
   let numOfCubes = 0;
-  while (((numOfCubes * (numOfCubes + 1)) / 2) ** 2 < m) {
+  while ((numOfCubes ** 2 * (numOfCubes + 1) ** 2) / 4 < m) {
     numOfCubes++;
   }
-  return numOfCubes;
+  if ((numOfCubes ** 2 * (numOfCubes + 1) ** 2) / 4 === m) {
+    return numOfCubes;
+  } else {
+    return -1;
+  }
 }
+
+// Here I used the mathematical formula of the sum of cubes of N natural numbers two times; once to get number of cubes needed to reach the volume "m" and then again just to check if the volume of all those cubes added together actually matched "m" perfectly. If it did, then everything was okay and I just returned the number of cubes I got from the while loop; if not, then I return -1 just the Kata asked.
