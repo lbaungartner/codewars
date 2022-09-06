@@ -1,1 +1,2 @@
-// Only now I'm creating a README.md, yes. Also using this as a test to see if I'm able to push my code on Arch (with WSL2) using the terminal instead of VS Code on Ubuntu. I'll edit this later.
+// This is the repository I'm using to store all my Codewars' Kata solutions. I'm doing this so I can improve my programming and problem resolution skills.
+
